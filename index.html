@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <title>EXERCÍCIO 29</title>
+    </head>
+    <body>
+        <div class="jumbotron">
+            <div class="container">
+                <h1 class="page-header">EXERCÍCIO 29</h1>
+                <p>Pesquise o algoritmo de validação do CNPJ escreva um programa que
+                    valide qualquer CNPJ dado;</p>                                                
+                <p>Exemplo:<br>
+                    CNPJ:
+                    <span style="color: red;">70.345.111/0001-09</span><br>
+                    Saída: Inválido.<br>
+                    CNPJ:
+                    <span style="color: red;">97.544.324/0001-22</span><br>
+                    Saída: Válido.<br></p>                    
+            </div>
+        </div>
+        <div class="container formulario">
+            <form>                
+                <div class="form-group">
+                    <div class="input-group input-group-md">
+                        <span class="input-group-addon">CNPJ:</span>
+                        <input id="inputCnpj" class="form-control" aria-describedby="sizing-addon1"> 
+                        <span class="input-group-addon"></span>                        
+                    </div>                  
+                </div>
+                                                                                                                         
+                <button type="button" class="btn btn-info" onclick="verifica_cnpj()">Verificar</button>
+            </form>
+        </div>
+        <br>
+        <div class="container formulario" id="form2">
+            <form>
+                <div class="form-group">
+                    <div class="input-group input-group-md">
+                        <span class="input-group-addon">Saída:</span>                
+                        <p class="form-control" id="Validacao"></p>
+                        <span class="input-group-addon"></span>                                         
+                    </div>            
+                </div>                                                            
+            </form>      
+        </div>
+        <div class="jumbotron">
+            <div class="container">
+                <p>Espero que  tenha gostado! Feito por Aline Almeida ❤️</p>             
+            </div>
+        </div>
+        <script src="./script.js"></script>     
+    </body>
+</html>

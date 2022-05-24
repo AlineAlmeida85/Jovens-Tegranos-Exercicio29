@@ -50,7 +50,7 @@
 
 ### GitHub AlineAlmeida85
 
-### Link: [Projeto]()
+### Link: [Projeto](https://alinealmeida85.github.io/Jovens-Tegranos-Exercicio29/)
 
 # ✅ Pré-requisitos 👌
 
